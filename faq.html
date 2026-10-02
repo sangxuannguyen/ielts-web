@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hỏi đáp | IELTS Master</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" class="text-logo">IELTS <span class="highlight">MASTER</span></a>
+        </div>
+        <button class="mobile-menu-btn" id="menuBtn">☰</button>
+        <nav id="mainNav">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="about.html">Giới thiệu</a></li>
+                <li><a href="courses.html">Khóa học</a></li>
+                <li><a href="gallery.html">Thư viện</a></li>
+                <li><a href="blog.html">Góc học tập</a></li>
+                <li><a href="faq.html" class="active">Hỏi đáp</a></li>
+                <li><a href="feedback.html">Phụ huynh</a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="faq-section">
+            <h1>Câu hỏi thường gặp</h1>
+            <div class="faq-list">
+                <article class="faq-item">
+                    <h3>1. Mất bao lâu để học từ con số 0 lên 6.5 IELTS?</h3>
+                    <p>Trung bình một người học hoàn toàn mất gốc sẽ cần khoảng 8 đến 12 tháng học tập trung (khoảng 600 - 800 giờ học) để đạt mốc 6.5. Tại IELTS Master, lộ trình được rút ngắn nhờ phương pháp cá nhân hóa.</p>
+                </article>
+                <article class="faq-item">
+                    <h3>2. Trung tâm có cam kết đầu ra không?</h3>
+                    <p>Có. IELTS Master cam kết đầu ra bằng văn bản hợp pháp. Nếu học viên học đủ số buổi và làm đủ bài tập nhưng không đạt điểm mục tiêu, trung tâm sẽ đào tạo lại hoàn toàn miễn phí.</p>
+                </article>
+                <article class="faq-item">
+                    <h3>3. Học viên có được thi thử thường xuyên không?</h3>
+                    <p>Học viên sẽ được tham gia Mock Test (thi thử) 4 kỹ năng chuẩn format thi thật hàng tháng để làm quen áp lực phòng thi và đánh giá tiến độ.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 IELTS Master. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        const mainNav = document.getElementById('mainNav');
+        if(menuBtn && mainNav) { menuBtn.addEventListener('click', () => { mainNav.classList.toggle('active'); }); }
+    </script>
+</body>
+</html>

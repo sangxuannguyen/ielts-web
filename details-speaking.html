@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết bài viết | IELTS Master</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" class="text-logo">IELTS <span class="highlight">MASTER</span></a>
+        </div>
+        <button class="mobile-menu-btn" id="menuBtn">☰</button>
+        <nav id="mainNav">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="about.html">Giới thiệu</a></li>
+                <li><a href="courses.html">Khóa học</a></li>
+                <li><a href="gallery.html">Thư viện</a></li>
+                <li><a href="blog.html" class="active">Góc học tập</a></li>
+                <li><a href="faq.html">Hỏi đáp</a></li>
+                <li><a href="feedback.html">Phụ huynh</a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="post-detail-section">
+            <div class="post-header">
+                <span class="blog-tag tag-speaking">Speaking</span>
+                <h1>5 Tips bứt phá IELTS Speaking Part 2</h1>
+            </div>
+
+            <div class="post-content">
+                <h2>1. Tận dụng tối đa 1 phút chuẩn bị (Maximize 1 minute preparation)</h2>
+                <p>Trong Part 2, giám khảo sẽ đưa cho bạn một Cue Card và bạn có đúng 1 phút để ghi chú. Đừng viết cả câu dài, hãy tập trung ghi ra các <strong>Từ khóa (Keywords)</strong> và các từ vựng ăn điểm (Idioms, Phrasal verbs) mà bạn định dùng. Việc vạch sẵn một sườn bài sẽ giúp bạn không bị bí ý tưởng giữa chừng.</p>
+
+                <h2>2. Trả lời đủ các gợi ý trên Cue Card</h2>
+                <p>Mặc dù không bắt buộc, nhưng việc bám sát các câu hỏi gợi ý (Who, What, When, Why) trên thẻ sẽ giúp bài nói của bạn có cấu trúc mạch lạc và logic hơn. Hãy mở rộng mỗi ý bằng 1-2 câu giải thích hoặc ví dụ.</p>
+
+                <h2>3. Nói liên tục từ 1 đến 2 phút</h2>
+                <p>Đừng dừng lại quá sớm! Hãy cứ nói cho đến khi giám khảo ra hiệu dừng lại. Việc nói trôi chảy (Fluency) quan trọng hơn việc cố gắng nói những câu ngữ pháp quá phức tạp nhưng lại bị vấp váp liên tục.</p>
+
+                <div class="post-action">
+                    <a href="blog.html" class="btn-secondary">🔙 Quay lại Góc học tập</a>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 IELTS Master. All rights reserved.</p>
+            <p style="font-size: 12px; color: #888;">*Nội dung mang tính chất tham khảo.</p>
+        </div>
+    </footer>
+
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        const mainNav = document.getElementById('mainNav');
+        if(menuBtn && mainNav) {
+            menuBtn.addEventListener('click', () => {
+                mainNav.classList.toggle('active');
+            });
+        }
+    </script>
+</body>
+</html>

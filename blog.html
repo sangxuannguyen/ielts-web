@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Góc học tập | IELTS Master</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" class="text-logo">IELTS <span class="highlight">MASTER</span></a>
+        </div>
+        <button class="mobile-menu-btn" id="menuBtn">☰</button>
+        <nav id="mainNav">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="about.html">Giới thiệu</a></li>
+                <li><a href="courses.html">Khóa học</a></li>
+                <li><a href="gallery.html">Thư viện</a></li>
+                <li><a href="blog.html" class="active">Góc học tập</a></li>
+                <li><a href="faq.html">Hỏi đáp</a></li>
+                <li><a href="feedback.html">Phụ huynh</a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <section class="blog-section">
+        <h1 class="section-title">Chia sẻ kinh nghiệm IELTS</h1>
+        
+        <div class="blog-grid">
+            <!-- Bài viết 1: Speaking -->
+            <article class="blog-card">
+                <div class="blog-img-wrapper">
+                    <span class="blog-tag tag-speaking">Speaking</span>
+                    <!-- Nhớ sửa lại tên file ảnh của bạn cho đúng nhé -->
+                    <img src="images/speaking-tips.jpg" alt="Mẹo IELTS Speaking">
+                </div>
+                <div class="blog-content">
+                    <h3>5 Tips bứt phá IELTS Speaking Part 2</h3>
+                    <p>Hướng dẫn cách triển khai ý tưởng và sử dụng từ vựng ghi điểm trong phần thi nói Part 2 một cách trôi chảy nhất.</p>
+                    <a href="details-speaking.html" class="read-more">Đọc tiếp ➔</a>
+                </div>
+            </article>
+
+            <!-- Bài viết 2: Writing -->
+            <article class="blog-card">
+                <div class="blog-img-wrapper">
+                    <span class="blog-tag tag-writing">Writing</span>
+                    <img src="images/education.jpg" alt="Lỗi ngữ pháp Writing">
+                </div>
+                <div class="blog-content">
+                    <h3>Các lỗi ngữ pháp kinh điển trong Writing</h3>
+                    <p>Tổng hợp những lỗi sai cấu trúc câu mà 80% thí sinh Việt Nam mắc phải khi viết Task 2 và cách khắc phục triệt để.</p>
+                    <a href="details-writing.html" class="read-more">Đọc tiếp ➔</a>
+                </div>
+            </article>
+
+            <!-- Bài viết 3: Reading -->
+            <article class="blog-card">
+                <div class="blog-img-wrapper">
+                    <span class="blog-tag tag-reading">Reading</span>
+                    <img src="images/skimming-scanning.jpg" alt="Kỹ năng Reading">
+                </div>
+                <div class="blog-content">
+                    <h3>Kỹ thuật Skimming & Scanning hiệu quả</h3>
+                    <p>Bí quyết tiết kiệm thời gian đọc hiểu và tìm từ khóa cực nhanh để trị dạng bài True/False/Not Given hóc búa.</p>
+                    <a href="details-reading.html" class="read-more">Đọc tiếp ➔</a>
+                </div>
+            </article>
+        </div>
+    </section>
+</main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 IELTS Master. All rights reserved.</p>
+            <p style="font-size: 12px; color: #888;">*Hình ảnh minh họa được lấy từ nguồn miễn phí.</p>
+        </div>
+    </footer>
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        const mainNav = document.getElementById('mainNav');
+        if(menuBtn && mainNav) { menuBtn.addEventListener('click', () => { mainNav.classList.toggle('active'); }); }
+    </script>
+</body>
+</html>

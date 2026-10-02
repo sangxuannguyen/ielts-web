@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thư viện | IELTS Master</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" class="text-logo">IELTS <span class="highlight">MASTER</span></a>
+        </div>
+        <button class="mobile-menu-btn" id="menuBtn">☰</button>
+        <nav id="mainNav">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="about.html">Giới thiệu</a></li>
+                <li><a href="courses.html">Khóa học</a></li>
+                <li><a href="gallery.html" class="active">Thư viện</a></li>
+                <li><a href="blog.html">Góc học tập</a></li>
+                <li><a href="faq.html">Hỏi đáp</a></li>
+                <li><a href="feedback.html">Phụ huynh</a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery-section">
+            <h1>Cơ sở vật chất và Hoạt động</h1>
+            <div class="gallery-grid">
+                <!-- Ảnh 1 -->
+                <article class="gallery-item">
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.6Rlbozw74tSbE926CEcK3QHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Phòng học">
+                    <h3 class="gallery-caption">Phòng học tiêu chuẩn</h3>
+                </article>
+
+                <!-- Ảnh 2 -->
+                <article class="gallery-item">
+                    <img src="https://ngocbach.com/wp-content/uploads/2019/03/bookcase-books-bookshelves-256541-600x400.jpg" alt="Thư viện">
+                    <h3 class="gallery-caption">Thư viện</h3>
+                </article>
+
+                <!-- Ảnh 3 -->
+                <article class="gallery-item">
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.iWowdpv323xDD_IM4W427AHaE6?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Ngoại khóa">
+                    <h3 class="gallery-caption">Hoạt động ngoại khóa</h3>
+                </article>
+
+                <!-- Ảnh 4 -->
+                <article class="gallery-item">
+                    <img src="https://saigonreview.vn/wp-content/uploads/2024/04/trung-tam-luyen-thi-ielts-tai-quan-1-1.jpg" alt="Tư vấn">
+                    <h3 class="gallery-caption">Lớp học nhóm tương tác</h3>
+                </article>
+
+                <!-- Ảnh 5 -->
+                <article class="gallery-item">
+                    <img src="https://ieltscity.vn/wp-content/uploads/2023/12/phong-tham-dinh-cuoi-khoa-cung-examiner-1024x768.jpg" alt="Phòng họp">
+                    <h3 class="gallery-caption">Phòng họp chuyên môn</h3>
+                </article>
+
+                <!-- Ảnh 6 -->
+                <article class="gallery-item">
+                    <img src="https://static.wixstatic.com/media/0065b5_dcf56d4c68d447d58488bde6ecbaf6be~mv2.jpg/v1/fill/w_980,h_595,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/0065b5_dcf56d4c68d447d58488bde6ecbaf6be~mv2.jpg" alt="Trao chứng chỉ">
+                    <h3 class="gallery-caption">Lễ vinh danh và Trao chứng chỉ</h3>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 IELTS Master. All rights reserved.</p>
+            <p style="font-size: 12px; color: #888;">Hình ảnh minh họa được lấy từ nguồn miễn phí.</p>
+        </div>
+    </footer>
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        const mainNav = document.getElementById('mainNav');
+        if(menuBtn && mainNav) { menuBtn.addEventListener('click', () => { mainNav.classList.toggle('active'); }); }
+    </script>
+</body>
+</html>
